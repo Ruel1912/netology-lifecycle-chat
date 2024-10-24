@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #c5ddeb;
+  font: 14px/20px 'Lato', Arial, sans-serif;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.chat-wrapper {
+  margin-inline: auto;
+  background: #f2f5f8;
+  color: #434651;
+}
+.chat-wrapper .chat-history {
+  padding: 30px 30px 20px;
+  overflow-y: auto;
+  height: 575px;
+}
+
+.chat-wrapper .chat-history .message {
+  color: white;
+  padding: 18px 20px;
+  line-height: 26px;
+  font-size: 16px;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  width: 90%;
+  position: relative;
+}
+.chat-wrapper .chat-history .my-message {
+  background: #94c2ed;
+  margin-left: auto;
+}
+.chat-wrapper .chat-history .other-message {
+  background: #86bb71;
+}
+
+textarea:focus {
+  outline: none !important
+}
